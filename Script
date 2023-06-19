@@ -1105,7 +1105,7 @@ UICorner_36.Parent = Close_4
 
 -- Scripts:
 
-local function JQUI_fake_script() -- ImageLabel.Rainbow 
+local function JNYURA_fake_script() -- ImageLabel.Rainbow 
 	local script = Instance.new('Script', ImageLabel)
 
 	local text = script.Parent
@@ -1161,8 +1161,8 @@ local function JQUI_fake_script() -- ImageLabel.Rainbow
 	end
 	end
 end
-coroutine.wrap(JQUI_fake_script)()
-local function DDYH_fake_script() -- UIGradient.Script 
+coroutine.wrap(JNYURA_fake_script)()
+local function UZFUY_fake_script() -- UIGradient.Script 
 	local script = Instance.new('Script', UIGradient)
 
 	while task.wait() do
@@ -1173,11 +1173,11 @@ local function DDYH_fake_script() -- UIGradient.Script
 		end
 	end
 end
-coroutine.wrap(DDYH_fake_script)()
-local function ISUF_fake_script() -- Intro.Script 
+coroutine.wrap(UZFUY_fake_script)()
+local function HXOOMNK_fake_script() -- Intro.Script 
 	local script = Instance.new('Script', Intro)
 
-	wait(3)
+	wait(0.1)
 	local TweenService = game:GetService("TweenService")
 	local PartTween = TweenService:Create(script.Parent.Bar.Percent, TweenInfo.new(0.7), {Size = UDim2.new(0.5, 0,1, 0)})
 	PartTween:Play()
@@ -1212,8 +1212,8 @@ local function ISUF_fake_script() -- Intro.Script
 		script.Parent.Parent.Key.Visible = true
 	end
 end
-coroutine.wrap(ISUF_fake_script)()
-local function RBDG_fake_script() -- Enter.LocalScript 
+coroutine.wrap(HXOOMNK_fake_script)()
+local function LQIM_fake_script() -- Enter.LocalScript 
 	local script = Instance.new('LocalScript', Enter)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1229,8 +1229,8 @@ local function RBDG_fake_script() -- Enter.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RBDG_fake_script)()
-local function BJRVV_fake_script() -- Key.Smooth GUI Dragging 
+coroutine.wrap(LQIM_fake_script)()
+local function LBMLIJU_fake_script() -- Key.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', Key)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1287,8 +1287,8 @@ local function BJRVV_fake_script() -- Key.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(BJRVV_fake_script)()
-local function ZDRB_fake_script() -- Close.LocalScript 
+coroutine.wrap(LBMLIJU_fake_script)()
+local function TKXQWE_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1313,8 +1313,8 @@ local function ZDRB_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(ZDRB_fake_script)()
-local function ONDKEOJ_fake_script() -- Speed.LocalScript 
+coroutine.wrap(TKXQWE_fake_script)()
+local function XKPRZ_fake_script() -- Speed.LocalScript 
 	local script = Instance.new('LocalScript', Speed)
 
 	local Speed = 0
@@ -1344,8 +1344,8 @@ local function ONDKEOJ_fake_script() -- Speed.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ONDKEOJ_fake_script)()
-local function XERO_fake_script() -- Depixelize.LocalScript 
+coroutine.wrap(XKPRZ_fake_script)()
+local function KNVSQK_fake_script() -- Depixelize.LocalScript 
 	local script = Instance.new('LocalScript', Depixelize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1353,7 +1353,7 @@ local function XERO_fake_script() -- Depixelize.LocalScript
 		local vim = game:GetService("VirtualInputManager")
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9e9,9e9 + 9e9 + 9e9 + 9e9,9e9)
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-		wait(0.05)
+		wait(0.2)
 		vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 		wait(0.05)
 		vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1362,8 +1362,8 @@ local function XERO_fake_script() -- Depixelize.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(XERO_fake_script)()
-local function SCQJ_fake_script() -- Skydive.LocalScript 
+coroutine.wrap(KNVSQK_fake_script)()
+local function TZXGPZ_fake_script() -- Skydive.LocalScript 
 	local script = Instance.new('LocalScript', Skydive)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1371,7 +1371,7 @@ local function SCQJ_fake_script() -- Skydive.LocalScript
 		local vim = game:GetService("VirtualInputManager")
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.X,game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.Y + 3500,game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.Z)
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-		wait(0.05)
+		wait(0.08)
 		vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 		wait(0.05)
 		vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1380,24 +1380,24 @@ local function SCQJ_fake_script() -- Skydive.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(SCQJ_fake_script)()
-local function WXQZE_fake_script() -- TPToPlayer.LocalScript 
+coroutine.wrap(TZXGPZ_fake_script)()
+local function KJAGDC_fake_script() -- TPToPlayer.LocalScript 
 	local script = Instance.new('LocalScript', TPToPlayer)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.PopupTeleport.Visible = true
 	end)
 end
-coroutine.wrap(WXQZE_fake_script)()
-local function HQURWQK_fake_script() -- TPToPlace.LocalScript 
+coroutine.wrap(KJAGDC_fake_script)()
+local function KSEYI_fake_script() -- TPToPlace.LocalScript 
 	local script = Instance.new('LocalScript', TPToPlace)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.PopupTeleportPlace.Visible = true
 	end)
 end
-coroutine.wrap(HQURWQK_fake_script)()
-local function EKDYR_fake_script() -- Warn.Script 
+coroutine.wrap(KSEYI_fake_script)()
+local function JQEM_fake_script() -- Warn.Script 
 	local script = Instance.new('Script', Warn)
 
 	while task.wait() do
@@ -1409,8 +1409,8 @@ local function EKDYR_fake_script() -- Warn.Script
 		PartTween:Play()
 		end
 end
-coroutine.wrap(EKDYR_fake_script)()
-local function IZXX_fake_script() -- AnticheatRemoval.LocalScript 
+coroutine.wrap(JQEM_fake_script)()
+local function HVKIGR_fake_script() -- AnticheatRemoval.LocalScript 
 	local script = Instance.new('LocalScript', AnticheatRemoval)
 
 	local On = true
@@ -1427,15 +1427,6 @@ local function IZXX_fake_script() -- AnticheatRemoval.LocalScript
 			PartTween:Play()
 		else
 			On = true
-			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
-				if v.ClassName == "Script" then
-					if v.Name == "Health" then
-	
-					else
-						v:Destroy()
-					end
-				end
-			end
 			script.Parent.Warn.Visible = false
 			local TweenService = game:GetService("TweenService")
 			local PartTween = TweenService:Create(script.Parent.ToggleOn, TweenInfo.new(0.25), {ImageTransparency = 0})
@@ -1447,28 +1438,8 @@ local function IZXX_fake_script() -- AnticheatRemoval.LocalScript
 	end)
 	
 	
-	game.Players.LocalPlayer.Character.ChildAdded:Connect(function(Child)
-		if Child.ClassName == "Folder" and Child.Name == "FULLY_LOADED_CHAR" then
-			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
-				if v.ClassName == "Script" then
-					if v.Name == "Health" then
-	
-					else
-						v:Destroy()
-					end
-				end
-			end
-			wait(0.1)
-			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
-				if v.ClassName == "Script" then
-					if v.Name == "Health" then
-	
-					else
-						v:Destroy()
-					end
-				end
-			end
-			wait(0.1)
+	game:GetService("RunService").Heartbeat:Connect(function()
+		if On == true then
 			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
 				if v.ClassName == "Script" then
 					if v.Name == "Health" then
@@ -1479,10 +1450,10 @@ local function IZXX_fake_script() -- AnticheatRemoval.LocalScript
 				end
 			end
 		end
-	end)
+		end)
 end
-coroutine.wrap(IZXX_fake_script)()
-local function GRMPR_fake_script() -- AntiStomp.LocalScript 
+coroutine.wrap(HVKIGR_fake_script)()
+local function NTLOE_fake_script() -- AntiStomp.LocalScript 
 	local script = Instance.new('LocalScript', AntiStomp)
 
 	local On = false
@@ -1521,14 +1492,15 @@ local function GRMPR_fake_script() -- AntiStomp.LocalScript
 	game.Players.LocalPlayer.Character.ChildAdded:Connect(function(Child)
 		if Child.ClassName == "Folder" and Child.Name == "FULLY_LOADED_CHAR" then
 			if Start == true then
+				wait(0.4)
 				Start = false
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Spot
 			end
 		end
 		end)
 end
-coroutine.wrap(GRMPR_fake_script)()
-local function SVHUVPH_fake_script() -- Aimbot.LocalScript 
+coroutine.wrap(NTLOE_fake_script)()
+local function NKWH_fake_script() -- Aimbot.LocalScript 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	local On = false
@@ -1608,8 +1580,8 @@ local function SVHUVPH_fake_script() -- Aimbot.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SVHUVPH_fake_script)()
-local function CCTPU_fake_script() -- MainDaHood.Smooth GUI Dragging 
+coroutine.wrap(NKWH_fake_script)()
+local function RGZL_fake_script() -- MainDaHood.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', MainDaHood)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1666,8 +1638,8 @@ local function CCTPU_fake_script() -- MainDaHood.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(CCTPU_fake_script)()
-local function FOULDAL_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(RGZL_fake_script)()
+local function GVHJLIH_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1692,8 +1664,27 @@ local function FOULDAL_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(FOULDAL_fake_script)()
-local function PRCK_fake_script() -- PopupTeleport.Smooth GUI Dragging 
+coroutine.wrap(GVHJLIH_fake_script)()
+local function WPZGO_fake_script() -- TP.LocalScript 
+	local script = Instance.new('LocalScript', TP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Visible = false
+		local Saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		local vim = game:GetService("VirtualInputManager")
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[""..script.Parent.Parent.Value.Text].Character.CFrame
+		--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
+		wait(0.1)
+		vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
+		wait(0.05)
+		vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
+		wait(0.01)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Saved
+		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
+	end)
+end
+coroutine.wrap(WPZGO_fake_script)()
+local function RXLY_fake_script() -- PopupTeleport.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', PopupTeleport)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1750,8 +1741,8 @@ local function PRCK_fake_script() -- PopupTeleport.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(PRCK_fake_script)()
-local function IUDPVEG_fake_script() -- Close_3.LocalScript 
+coroutine.wrap(RXLY_fake_script)()
+local function UBVDAN_fake_script() -- Close_3.LocalScript 
 	local script = Instance.new('LocalScript', Close_3)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1776,8 +1767,8 @@ local function IUDPVEG_fake_script() -- Close_3.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(IUDPVEG_fake_script)()
-local function ASTI_fake_script() -- TP_2.LocalScript 
+coroutine.wrap(UBVDAN_fake_script)()
+local function IHRGQID_fake_script() -- TP_2.LocalScript 
 	local script = Instance.new('LocalScript', TP_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1786,7 +1777,7 @@ local function ASTI_fake_script() -- TP_2.LocalScript
 	local vim = game:GetService("VirtualInputManager")
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-867, -42, -1163)
 	--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-	wait(0.05)
+	wait(0.1)
 	vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 	wait(0.05)
 	vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1795,8 +1786,8 @@ local function ASTI_fake_script() -- TP_2.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(ASTI_fake_script)()
-local function UJSRPG_fake_script() -- TP_3.LocalScript 
+coroutine.wrap(IHRGQID_fake_script)()
+local function GQUU_fake_script() -- TP_3.LocalScript 
 	local script = Instance.new('LocalScript', TP_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1805,7 +1796,7 @@ local function UJSRPG_fake_script() -- TP_3.LocalScript
 	local vim = game:GetService("VirtualInputManager")
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(51, 12, 133)
 	--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-	wait(0.05)
+	wait(0.1)
 	vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 	wait(0.05)
 	vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1814,8 +1805,8 @@ local function UJSRPG_fake_script() -- TP_3.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(UJSRPG_fake_script)()
-local function ZAWUD_fake_script() -- TP_4.LocalScript 
+coroutine.wrap(GQUU_fake_script)()
+local function FDVJV_fake_script() -- TP_4.LocalScript 
 	local script = Instance.new('LocalScript', TP_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1824,7 +1815,7 @@ local function ZAWUD_fake_script() -- TP_4.LocalScript
 	local vim = game:GetService("VirtualInputManager")
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-295, 22, -116)
 	--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-	wait(0.05)
+	wait(0.1)
 	vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 	wait(0.05)
 	vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1833,8 +1824,8 @@ local function ZAWUD_fake_script() -- TP_4.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(ZAWUD_fake_script)()
-local function VWLXBI_fake_script() -- TP_5.LocalScript 
+coroutine.wrap(FDVJV_fake_script)()
+local function LFHAU_fake_script() -- TP_5.LocalScript 
 	local script = Instance.new('LocalScript', TP_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1843,7 +1834,7 @@ local function VWLXBI_fake_script() -- TP_5.LocalScript
 	local vim = game:GetService("VirtualInputManager")
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(138, -28, 157)
 	--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-	wait(0.05)
+	wait(0.1)
 	vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 	wait(0.05)
 	vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1852,8 +1843,8 @@ local function VWLXBI_fake_script() -- TP_5.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(VWLXBI_fake_script)()
-local function PSLEW_fake_script() -- TP_6.LocalScript 
+coroutine.wrap(LFHAU_fake_script)()
+local function NSQPOYQ_fake_script() -- TP_6.LocalScript 
 	local script = Instance.new('LocalScript', TP_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1862,7 +1853,7 @@ local function PSLEW_fake_script() -- TP_6.LocalScript
 	local vim = game:GetService("VirtualInputManager")
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-456, 25, -283)
 	--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-	wait(0.05)
+	wait(0.1)
 	vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 	wait(0.05)
 	vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1871,8 +1862,8 @@ local function PSLEW_fake_script() -- TP_6.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(PSLEW_fake_script)()
-local function IQTRGX_fake_script() -- TP_7.LocalScript 
+coroutine.wrap(NSQPOYQ_fake_script)()
+local function DKTYBV_fake_script() -- TP_7.LocalScript 
 	local script = Instance.new('LocalScript', TP_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1881,7 +1872,7 @@ local function IQTRGX_fake_script() -- TP_7.LocalScript
 	local vim = game:GetService("VirtualInputManager")
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-571, 22, 367)
 	--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-	wait(0.05)
+	wait(0.1)
 	vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 	wait(0.05)
 	vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1890,8 +1881,8 @@ local function IQTRGX_fake_script() -- TP_7.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(IQTRGX_fake_script)()
-local function CHIR_fake_script() -- TP_8.LocalScript 
+coroutine.wrap(DKTYBV_fake_script)()
+local function JTOP_fake_script() -- TP_8.LocalScript 
 	local script = Instance.new('LocalScript', TP_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1900,7 +1891,7 @@ local function CHIR_fake_script() -- TP_8.LocalScript
 	local vim = game:GetService("VirtualInputManager")
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(72, 139, -691)
 	--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-	wait(0.05)
+	wait(0.1)
 	vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 	wait(0.05)
 	vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1909,8 +1900,8 @@ local function CHIR_fake_script() -- TP_8.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(CHIR_fake_script)()
-local function WEHLN_fake_script() -- TP_9.LocalScript 
+coroutine.wrap(JTOP_fake_script)()
+local function TZACKM_fake_script() -- TP_9.LocalScript 
 	local script = Instance.new('LocalScript', TP_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1919,7 +1910,7 @@ local function WEHLN_fake_script() -- TP_9.LocalScript
 	local vim = game:GetService("VirtualInputManager")
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-863, -4, -908)
 	--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-	wait(0.05)
+	wait(0.1)
 	vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 	wait(0.05)
 	vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1928,8 +1919,8 @@ local function WEHLN_fake_script() -- TP_9.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(WEHLN_fake_script)()
-local function EOGJY_fake_script() -- TP_10.LocalScript 
+coroutine.wrap(TZACKM_fake_script)()
+local function GFCTUBE_fake_script() -- TP_10.LocalScript 
 	local script = Instance.new('LocalScript', TP_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1938,7 +1929,7 @@ local function EOGJY_fake_script() -- TP_10.LocalScript
 	local vim = game:GetService("VirtualInputManager")
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-984, 21, -638)
 	--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
-	wait(0.05)
+	wait(0.1)
 	vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
 	wait(0.05)
 	vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
@@ -1947,8 +1938,8 @@ local function EOGJY_fake_script() -- TP_10.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(EOGJY_fake_script)()
-local function PAZPR_fake_script() -- PopupTeleportPlace.Smooth GUI Dragging 
+coroutine.wrap(GFCTUBE_fake_script)()
+local function FJBDQ_fake_script() -- PopupTeleportPlace.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', PopupTeleportPlace)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2005,8 +1996,8 @@ local function PAZPR_fake_script() -- PopupTeleportPlace.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(PAZPR_fake_script)()
-local function NVDCK_fake_script() -- Close_4.LocalScript 
+coroutine.wrap(FJBDQ_fake_script)()
+local function OQWR_fake_script() -- Close_4.LocalScript 
 	local script = Instance.new('LocalScript', Close_4)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -2031,4 +2022,4 @@ local function NVDCK_fake_script() -- Close_4.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(NVDCK_fake_script)()
+coroutine.wrap(OQWR_fake_script)()
