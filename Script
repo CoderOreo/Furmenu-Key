@@ -76,10 +76,13 @@ local Aimbot = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
 local ToggleOn_3 = Instance.new("ImageLabel")
 local ToggleOff_3 = Instance.new("ImageLabel")
-local Close_2 = Instance.new("TextButton")
+local Macro = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
-local PopupTeleport = Instance.new("Frame")
+local ImageLabel_10 = Instance.new("ImageLabel")
+local Close_2 = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
+local PopupTeleport = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
 local Version_4 = Instance.new("TextLabel")
 local Furmenu_3 = Instance.new("TextLabel")
 local Gallery_3 = Instance.new("Folder")
@@ -87,14 +90,14 @@ local Menu_2 = Instance.new("ScrollingFrame")
 local UIListLayout_3 = Instance.new("UIListLayout")
 local Info_3 = Instance.new("TextLabel")
 local Value = Instance.new("TextBox")
-local UICorner_23 = Instance.new("UICorner")
-local TP = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
-local ImageLabel_10 = Instance.new("ImageLabel")
-local Close_3 = Instance.new("TextButton")
+local TP = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
-local PopupTeleportPlace = Instance.new("Frame")
+local ImageLabel_11 = Instance.new("ImageLabel")
+local Close_3 = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
+local PopupTeleportPlace = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
 local Version_5 = Instance.new("TextLabel")
 local Furmenu_4 = Instance.new("TextLabel")
 local Gallery_4 = Instance.new("Folder")
@@ -102,37 +105,37 @@ local Menu_3 = Instance.new("ScrollingFrame")
 local UIListLayout_4 = Instance.new("UIListLayout")
 local Info_4 = Instance.new("TextLabel")
 local TP_2 = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local ImageLabel_11 = Instance.new("ImageLabel")
-local TP_3 = Instance.new("TextButton")
 local UICorner_28 = Instance.new("UICorner")
 local ImageLabel_12 = Instance.new("ImageLabel")
-local TP_4 = Instance.new("TextButton")
+local TP_3 = Instance.new("TextButton")
 local UICorner_29 = Instance.new("UICorner")
 local ImageLabel_13 = Instance.new("ImageLabel")
-local TP_5 = Instance.new("TextButton")
+local TP_4 = Instance.new("TextButton")
 local UICorner_30 = Instance.new("UICorner")
 local ImageLabel_14 = Instance.new("ImageLabel")
-local TP_6 = Instance.new("TextButton")
+local TP_5 = Instance.new("TextButton")
 local UICorner_31 = Instance.new("UICorner")
 local ImageLabel_15 = Instance.new("ImageLabel")
-local TP_7 = Instance.new("TextButton")
+local TP_6 = Instance.new("TextButton")
 local UICorner_32 = Instance.new("UICorner")
 local ImageLabel_16 = Instance.new("ImageLabel")
-local TP_8 = Instance.new("TextButton")
+local TP_7 = Instance.new("TextButton")
 local UICorner_33 = Instance.new("UICorner")
 local ImageLabel_17 = Instance.new("ImageLabel")
-local TP_9 = Instance.new("TextButton")
+local TP_8 = Instance.new("TextButton")
 local UICorner_34 = Instance.new("UICorner")
 local ImageLabel_18 = Instance.new("ImageLabel")
-local TP_10 = Instance.new("TextButton")
+local TP_9 = Instance.new("TextButton")
 local UICorner_35 = Instance.new("UICorner")
 local ImageLabel_19 = Instance.new("ImageLabel")
-local TP_11 = Instance.new("TextButton")
+local TP_10 = Instance.new("TextButton")
 local UICorner_36 = Instance.new("UICorner")
 local ImageLabel_20 = Instance.new("ImageLabel")
-local Close_4 = Instance.new("TextButton")
+local TP_11 = Instance.new("TextButton")
 local UICorner_37 = Instance.new("UICorner")
+local ImageLabel_21 = Instance.new("ImageLabel")
+local Close_4 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
 
 --Properties:
 
@@ -693,6 +696,28 @@ ToggleOff_3.Position = UDim2.new(0.0120240478, 0, 0, 0)
 ToggleOff_3.Size = UDim2.new(0.0460120216, 0, 1, 0)
 ToggleOff_3.Image = "rbxassetid://5228566966"
 
+Macro.Name = "Macro"
+Macro.Parent = Menu
+Macro.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Macro.Position = UDim2.new(0.803607225, -401, 0.439515114, 0)
+Macro.Size = UDim2.new(1, 0, 0.0399999991, 0)
+Macro.Font = Enum.Font.SourceSansBold
+Macro.Text = "Fake Macro"
+Macro.TextColor3 = Color3.fromRGB(230, 230, 230)
+Macro.TextScaled = true
+Macro.TextSize = 14.000
+Macro.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = Macro
+
+ImageLabel_10.Parent = Macro
+ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_10.BackgroundTransparency = 11.000
+ImageLabel_10.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_10.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_10.Image = "rbxassetid://3128012693"
+
 Close_2.Name = "Close"
 Close_2.Parent = MainDaHood
 Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -705,8 +730,8 @@ Close_2.TextScaled = true
 Close_2.TextSize = 14.000
 Close_2.TextWrapped = true
 
-UICorner_21.CornerRadius = UDim.new(0, 2)
-UICorner_21.Parent = Close_2
+UICorner_22.CornerRadius = UDim.new(0, 2)
+UICorner_22.Parent = Close_2
 
 PopupTeleport.Name = "PopupTeleport"
 PopupTeleport.Parent = OREOSMENUDAHOOD
@@ -715,8 +740,8 @@ PopupTeleport.Position = UDim2.new(0.649999976, -250, 0.601234615, -162)
 PopupTeleport.Size = UDim2.new(0, 500, 0, 287)
 PopupTeleport.Visible = false
 
-UICorner_22.CornerRadius = UDim.new(0, 4)
-UICorner_22.Parent = PopupTeleport
+UICorner_23.CornerRadius = UDim.new(0, 4)
+UICorner_23.Parent = PopupTeleport
 
 Version_4.Name = "Version"
 Version_4.Parent = PopupTeleport
@@ -787,8 +812,8 @@ Value.TextScaled = true
 Value.TextSize = 14.000
 Value.TextWrapped = true
 
-UICorner_23.CornerRadius = UDim.new(0, 3)
-UICorner_23.Parent = Value
+UICorner_24.CornerRadius = UDim.new(0, 3)
+UICorner_24.Parent = Value
 
 TP.Name = "TP"
 TP.Parent = Menu_2
@@ -802,15 +827,15 @@ TP.TextScaled = true
 TP.TextSize = 14.000
 TP.TextWrapped = true
 
-UICorner_24.CornerRadius = UDim.new(0, 3)
-UICorner_24.Parent = TP
+UICorner_25.CornerRadius = UDim.new(0, 3)
+UICorner_25.Parent = TP
 
-ImageLabel_10.Parent = TP
-ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_10.BackgroundTransparency = 11.000
-ImageLabel_10.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_10.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_10.Image = "rbxassetid://3128012693"
+ImageLabel_11.Parent = TP
+ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_11.BackgroundTransparency = 11.000
+ImageLabel_11.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_11.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_11.Image = "rbxassetid://3128012693"
 
 Close_3.Name = "Close"
 Close_3.Parent = PopupTeleport
@@ -824,8 +849,8 @@ Close_3.TextScaled = true
 Close_3.TextSize = 14.000
 Close_3.TextWrapped = true
 
-UICorner_25.CornerRadius = UDim.new(0, 2)
-UICorner_25.Parent = Close_3
+UICorner_26.CornerRadius = UDim.new(0, 2)
+UICorner_26.Parent = Close_3
 
 PopupTeleportPlace.Name = "PopupTeleportPlace"
 PopupTeleportPlace.Parent = OREOSMENUDAHOOD
@@ -834,8 +859,8 @@ PopupTeleportPlace.Position = UDim2.new(0.704999983, -250, 0.622222245, -162)
 PopupTeleportPlace.Size = UDim2.new(0, 500, 0, 287)
 PopupTeleportPlace.Visible = false
 
-UICorner_26.CornerRadius = UDim.new(0, 4)
-UICorner_26.Parent = PopupTeleportPlace
+UICorner_27.CornerRadius = UDim.new(0, 4)
+UICorner_27.Parent = PopupTeleportPlace
 
 Version_5.Name = "Version"
 Version_5.Parent = PopupTeleportPlace
@@ -905,15 +930,15 @@ TP_2.TextScaled = true
 TP_2.TextSize = 14.000
 TP_2.TextWrapped = true
 
-UICorner_27.CornerRadius = UDim.new(0, 3)
-UICorner_27.Parent = TP_2
+UICorner_28.CornerRadius = UDim.new(0, 3)
+UICorner_28.Parent = TP_2
 
-ImageLabel_11.Parent = TP_2
-ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_11.BackgroundTransparency = 11.000
-ImageLabel_11.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_11.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_11.Image = "rbxassetid://3128012693"
+ImageLabel_12.Parent = TP_2
+ImageLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_12.BackgroundTransparency = 11.000
+ImageLabel_12.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_12.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_12.Image = "rbxassetid://3128012693"
 
 TP_3.Name = "TP"
 TP_3.Parent = Menu_3
@@ -927,15 +952,15 @@ TP_3.TextScaled = true
 TP_3.TextSize = 14.000
 TP_3.TextWrapped = true
 
-UICorner_28.CornerRadius = UDim.new(0, 3)
-UICorner_28.Parent = TP_3
+UICorner_29.CornerRadius = UDim.new(0, 3)
+UICorner_29.Parent = TP_3
 
-ImageLabel_12.Parent = TP_3
-ImageLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_12.BackgroundTransparency = 11.000
-ImageLabel_12.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_12.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_12.Image = "rbxassetid://3128012693"
+ImageLabel_13.Parent = TP_3
+ImageLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_13.BackgroundTransparency = 11.000
+ImageLabel_13.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_13.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_13.Image = "rbxassetid://3128012693"
 
 TP_4.Name = "TP"
 TP_4.Parent = Menu_3
@@ -949,15 +974,15 @@ TP_4.TextScaled = true
 TP_4.TextSize = 14.000
 TP_4.TextWrapped = true
 
-UICorner_29.CornerRadius = UDim.new(0, 3)
-UICorner_29.Parent = TP_4
+UICorner_30.CornerRadius = UDim.new(0, 3)
+UICorner_30.Parent = TP_4
 
-ImageLabel_13.Parent = TP_4
-ImageLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_13.BackgroundTransparency = 11.000
-ImageLabel_13.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_13.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_13.Image = "rbxassetid://3128012693"
+ImageLabel_14.Parent = TP_4
+ImageLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_14.BackgroundTransparency = 11.000
+ImageLabel_14.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_14.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_14.Image = "rbxassetid://3128012693"
 
 TP_5.Name = "TP"
 TP_5.Parent = Menu_3
@@ -971,15 +996,15 @@ TP_5.TextScaled = true
 TP_5.TextSize = 14.000
 TP_5.TextWrapped = true
 
-UICorner_30.CornerRadius = UDim.new(0, 3)
-UICorner_30.Parent = TP_5
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = TP_5
 
-ImageLabel_14.Parent = TP_5
-ImageLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_14.BackgroundTransparency = 11.000
-ImageLabel_14.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_14.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_14.Image = "rbxassetid://3128012693"
+ImageLabel_15.Parent = TP_5
+ImageLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_15.BackgroundTransparency = 11.000
+ImageLabel_15.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_15.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_15.Image = "rbxassetid://3128012693"
 
 TP_6.Name = "TP"
 TP_6.Parent = Menu_3
@@ -993,15 +1018,15 @@ TP_6.TextScaled = true
 TP_6.TextSize = 14.000
 TP_6.TextWrapped = true
 
-UICorner_31.CornerRadius = UDim.new(0, 3)
-UICorner_31.Parent = TP_6
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = TP_6
 
-ImageLabel_15.Parent = TP_6
-ImageLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_15.BackgroundTransparency = 11.000
-ImageLabel_15.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_15.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_15.Image = "rbxassetid://3128012693"
+ImageLabel_16.Parent = TP_6
+ImageLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_16.BackgroundTransparency = 11.000
+ImageLabel_16.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_16.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_16.Image = "rbxassetid://3128012693"
 
 TP_7.Name = "TP"
 TP_7.Parent = Menu_3
@@ -1015,15 +1040,15 @@ TP_7.TextScaled = true
 TP_7.TextSize = 14.000
 TP_7.TextWrapped = true
 
-UICorner_32.CornerRadius = UDim.new(0, 3)
-UICorner_32.Parent = TP_7
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = TP_7
 
-ImageLabel_16.Parent = TP_7
-ImageLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_16.BackgroundTransparency = 11.000
-ImageLabel_16.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_16.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_16.Image = "rbxassetid://3128012693"
+ImageLabel_17.Parent = TP_7
+ImageLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_17.BackgroundTransparency = 11.000
+ImageLabel_17.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_17.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_17.Image = "rbxassetid://3128012693"
 
 TP_8.Name = "TP"
 TP_8.Parent = Menu_3
@@ -1037,15 +1062,15 @@ TP_8.TextScaled = true
 TP_8.TextSize = 14.000
 TP_8.TextWrapped = true
 
-UICorner_33.CornerRadius = UDim.new(0, 3)
-UICorner_33.Parent = TP_8
+UICorner_34.CornerRadius = UDim.new(0, 3)
+UICorner_34.Parent = TP_8
 
-ImageLabel_17.Parent = TP_8
-ImageLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_17.BackgroundTransparency = 11.000
-ImageLabel_17.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_17.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_17.Image = "rbxassetid://3128012693"
+ImageLabel_18.Parent = TP_8
+ImageLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_18.BackgroundTransparency = 11.000
+ImageLabel_18.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_18.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_18.Image = "rbxassetid://3128012693"
 
 TP_9.Name = "TP"
 TP_9.Parent = Menu_3
@@ -1059,15 +1084,15 @@ TP_9.TextScaled = true
 TP_9.TextSize = 14.000
 TP_9.TextWrapped = true
 
-UICorner_34.CornerRadius = UDim.new(0, 3)
-UICorner_34.Parent = TP_9
+UICorner_35.CornerRadius = UDim.new(0, 3)
+UICorner_35.Parent = TP_9
 
-ImageLabel_18.Parent = TP_9
-ImageLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_18.BackgroundTransparency = 11.000
-ImageLabel_18.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_18.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_18.Image = "rbxassetid://3128012693"
+ImageLabel_19.Parent = TP_9
+ImageLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_19.BackgroundTransparency = 11.000
+ImageLabel_19.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_19.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_19.Image = "rbxassetid://3128012693"
 
 TP_10.Name = "TP"
 TP_10.Parent = Menu_3
@@ -1081,15 +1106,15 @@ TP_10.TextScaled = true
 TP_10.TextSize = 14.000
 TP_10.TextWrapped = true
 
-UICorner_35.CornerRadius = UDim.new(0, 3)
-UICorner_35.Parent = TP_10
+UICorner_36.CornerRadius = UDim.new(0, 3)
+UICorner_36.Parent = TP_10
 
-ImageLabel_19.Parent = TP_10
-ImageLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_19.BackgroundTransparency = 11.000
-ImageLabel_19.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_19.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_19.Image = "rbxassetid://3128012693"
+ImageLabel_20.Parent = TP_10
+ImageLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_20.BackgroundTransparency = 11.000
+ImageLabel_20.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_20.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_20.Image = "rbxassetid://3128012693"
 
 TP_11.Name = "TP"
 TP_11.Parent = Menu_3
@@ -1103,15 +1128,15 @@ TP_11.TextScaled = true
 TP_11.TextSize = 14.000
 TP_11.TextWrapped = true
 
-UICorner_36.CornerRadius = UDim.new(0, 3)
-UICorner_36.Parent = TP_11
+UICorner_37.CornerRadius = UDim.new(0, 3)
+UICorner_37.Parent = TP_11
 
-ImageLabel_20.Parent = TP_11
-ImageLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_20.BackgroundTransparency = 11.000
-ImageLabel_20.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
-ImageLabel_20.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
-ImageLabel_20.Image = "rbxassetid://3128012693"
+ImageLabel_21.Parent = TP_11
+ImageLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_21.BackgroundTransparency = 11.000
+ImageLabel_21.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_21.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_21.Image = "rbxassetid://3128012693"
 
 Close_4.Name = "Close"
 Close_4.Parent = PopupTeleportPlace
@@ -1125,12 +1150,12 @@ Close_4.TextScaled = true
 Close_4.TextSize = 14.000
 Close_4.TextWrapped = true
 
-UICorner_37.CornerRadius = UDim.new(0, 2)
-UICorner_37.Parent = Close_4
+UICorner_38.CornerRadius = UDim.new(0, 2)
+UICorner_38.Parent = Close_4
 
 -- Scripts:
 
-local function CGWRFDJ_fake_script() -- ImageLabel.Rainbow 
+local function QTRQCW_fake_script() -- ImageLabel.Rainbow 
 	local script = Instance.new('Script', ImageLabel)
 
 	local text = script.Parent
@@ -1186,8 +1211,8 @@ local function CGWRFDJ_fake_script() -- ImageLabel.Rainbow
 	end
 	end
 end
-coroutine.wrap(CGWRFDJ_fake_script)()
-local function DHTHU_fake_script() -- UIGradient.Script 
+coroutine.wrap(QTRQCW_fake_script)()
+local function KLCZ_fake_script() -- UIGradient.Script 
 	local script = Instance.new('Script', UIGradient)
 
 	while task.wait() do
@@ -1198,8 +1223,8 @@ local function DHTHU_fake_script() -- UIGradient.Script
 		end
 	end
 end
-coroutine.wrap(DHTHU_fake_script)()
-local function QOQVL_fake_script() -- Intro.Script 
+coroutine.wrap(KLCZ_fake_script)()
+local function QKPW_fake_script() -- Intro.Script 
 	local script = Instance.new('Script', Intro)
 
 	wait(0.1)
@@ -1237,8 +1262,8 @@ local function QOQVL_fake_script() -- Intro.Script
 		script.Parent.Parent.Key.Visible = true
 	end
 end
-coroutine.wrap(QOQVL_fake_script)()
-local function ZSCQ_fake_script() -- Enter.LocalScript 
+coroutine.wrap(QKPW_fake_script)()
+local function MGWA_fake_script() -- Enter.LocalScript 
 	local script = Instance.new('LocalScript', Enter)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1254,8 +1279,8 @@ local function ZSCQ_fake_script() -- Enter.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZSCQ_fake_script)()
-local function EOQO_fake_script() -- Key.Smooth GUI Dragging 
+coroutine.wrap(MGWA_fake_script)()
+local function NIUC_fake_script() -- Key.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', Key)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1312,8 +1337,8 @@ local function EOQO_fake_script() -- Key.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(EOQO_fake_script)()
-local function YEDGRET_fake_script() -- Close.LocalScript 
+coroutine.wrap(NIUC_fake_script)()
+local function HKQQL_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1338,8 +1363,8 @@ local function YEDGRET_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(YEDGRET_fake_script)()
-local function RHZUE_fake_script() -- Speed.LocalScript 
+coroutine.wrap(HKQQL_fake_script)()
+local function YKRMV_fake_script() -- Speed.LocalScript 
 	local script = Instance.new('LocalScript', Speed)
 
 	local Speed = 0
@@ -1369,8 +1394,8 @@ local function RHZUE_fake_script() -- Speed.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RHZUE_fake_script)()
-local function QVPKXN_fake_script() -- Depixelize.LocalScript 
+coroutine.wrap(YKRMV_fake_script)()
+local function YDFYRJW_fake_script() -- Depixelize.LocalScript 
 	local script = Instance.new('LocalScript', Depixelize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1387,8 +1412,8 @@ local function QVPKXN_fake_script() -- Depixelize.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(QVPKXN_fake_script)()
-local function QSVXG_fake_script() -- Skydive.LocalScript 
+coroutine.wrap(YDFYRJW_fake_script)()
+local function BYEXS_fake_script() -- Skydive.LocalScript 
 	local script = Instance.new('LocalScript', Skydive)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1405,24 +1430,24 @@ local function QSVXG_fake_script() -- Skydive.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(QSVXG_fake_script)()
-local function VJPALZI_fake_script() -- TPToPlayer.LocalScript 
+coroutine.wrap(BYEXS_fake_script)()
+local function AVISJ_fake_script() -- TPToPlayer.LocalScript 
 	local script = Instance.new('LocalScript', TPToPlayer)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.PopupTeleport.Visible = true
 	end)
 end
-coroutine.wrap(VJPALZI_fake_script)()
-local function KLHTDQY_fake_script() -- TPToPlace.LocalScript 
+coroutine.wrap(AVISJ_fake_script)()
+local function GPSLBHB_fake_script() -- TPToPlace.LocalScript 
 	local script = Instance.new('LocalScript', TPToPlace)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.PopupTeleportPlace.Visible = true
 	end)
 end
-coroutine.wrap(KLHTDQY_fake_script)()
-local function LQXJZEH_fake_script() -- Warn.Script 
+coroutine.wrap(GPSLBHB_fake_script)()
+local function SDXKGH_fake_script() -- Warn.Script 
 	local script = Instance.new('Script', Warn)
 
 	while task.wait() do
@@ -1434,8 +1459,8 @@ local function LQXJZEH_fake_script() -- Warn.Script
 		PartTween:Play()
 		end
 end
-coroutine.wrap(LQXJZEH_fake_script)()
-local function HXQOC_fake_script() -- AnticheatRemoval.LocalScript 
+coroutine.wrap(SDXKGH_fake_script)()
+local function VYAZCI_fake_script() -- AnticheatRemoval.LocalScript 
 	local script = Instance.new('LocalScript', AnticheatRemoval)
 
 	local On = true
@@ -1501,8 +1526,8 @@ local function HXQOC_fake_script() -- AnticheatRemoval.LocalScript
 		end
 		end)
 end
-coroutine.wrap(HXQOC_fake_script)()
-local function QOAIMSK_fake_script() -- AntiStomp.LocalScript 
+coroutine.wrap(VYAZCI_fake_script)()
+local function WSFURZ_fake_script() -- AntiStomp.LocalScript 
 	local script = Instance.new('LocalScript', AntiStomp)
 
 	local On = false
@@ -1548,8 +1573,8 @@ local function QOAIMSK_fake_script() -- AntiStomp.LocalScript
 		end
 		end)
 end
-coroutine.wrap(QOAIMSK_fake_script)()
-local function BYVXYS_fake_script() -- Aimbot.LocalScript 
+coroutine.wrap(WSFURZ_fake_script)()
+local function MUPHPQJ_fake_script() -- Aimbot.LocalScript 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	local On = false
@@ -1629,8 +1654,51 @@ local function BYVXYS_fake_script() -- Aimbot.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BYVXYS_fake_script)()
-local function ETUNWVK_fake_script() -- MainDaHood.Smooth GUI Dragging 
+coroutine.wrap(MUPHPQJ_fake_script)()
+local function WJTJBOL_fake_script() -- Macro.LocalScript 
+	local script = Instance.new('LocalScript', Macro)
+
+	local Go = false
+	local Moving = false
+	local NowKnows = false
+	script.Parent.MouseButton1Click:Connect(function()
+		Instance.new("Animation", game:GetService("ReplicatedStorage"):findFirstChild("ClientAnimations")).Name = "Greet"
+		game:GetService("ReplicatedStorage"):findFirstChild("ClientAnimations"):findFirstChild("Greet").AnimationId = "rbxassetid://3189777795"
+		game:service'Players'.LocalPlayer.Character:findFirstChildOfClass("Humanoid"):LoadAnimation(game:GetService("ReplicatedStorage"):findFirstChild("ClientAnimations"):findFirstChild("Greet")):Play()
+		wait(1.6)
+		game.Players.LocalPlayer.Backpack["[Phone]"].Parent = game.Players.LocalPlayer.Character
+		wait(0.05)
+		game.Players.LocalPlayer.Character["[Phone]"].Parent = game.Players.LocalPlayer.Backpack
+		Go = true
+		game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.LeftControl, false, game)
+	end)
+	
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if Go == true then
+			if Moving == true then
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 215
+			end
+			if NowKnows == false then
+			if game.Players.LocalPlayer.Humanoid.MoveDirection.Magnitude > 0.1 then
+					Moving = true
+					NowKnows = true
+				end
+				
+				if Moving == true and NowKnows == true then
+					if game.Players.LocalPlayer.Humanoid.MoveDirection.Magnitude < 0.1 then
+						Moving = false
+						NowKnows = false
+						Go = false
+						game:GetService("VirtualInputManager"):SendKeyEvent(false, Enum.KeyCode.LeftControl, false, game)
+					end
+				end
+				end
+		end
+	end)
+end
+coroutine.wrap(WJTJBOL_fake_script)()
+local function EABWMRX_fake_script() -- MainDaHood.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', MainDaHood)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1687,8 +1755,8 @@ local function ETUNWVK_fake_script() -- MainDaHood.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(ETUNWVK_fake_script)()
-local function JMSSQFV_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(EABWMRX_fake_script)()
+local function BSSI_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1713,8 +1781,8 @@ local function JMSSQFV_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(JMSSQFV_fake_script)()
-local function HGXZ_fake_script() -- TP.LocalScript 
+coroutine.wrap(BSSI_fake_script)()
+local function BJHHA_fake_script() -- TP.LocalScript 
 	local script = Instance.new('LocalScript', TP)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1732,8 +1800,8 @@ local function HGXZ_fake_script() -- TP.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(HGXZ_fake_script)()
-local function EMPT_fake_script() -- PopupTeleport.Smooth GUI Dragging 
+coroutine.wrap(BJHHA_fake_script)()
+local function ESABT_fake_script() -- PopupTeleport.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', PopupTeleport)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1790,8 +1858,8 @@ local function EMPT_fake_script() -- PopupTeleport.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(EMPT_fake_script)()
-local function MVWIA_fake_script() -- Close_3.LocalScript 
+coroutine.wrap(ESABT_fake_script)()
+local function VJHKJG_fake_script() -- Close_3.LocalScript 
 	local script = Instance.new('LocalScript', Close_3)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1816,8 +1884,8 @@ local function MVWIA_fake_script() -- Close_3.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(MVWIA_fake_script)()
-local function ERMFK_fake_script() -- TP_2.LocalScript 
+coroutine.wrap(VJHKJG_fake_script)()
+local function GESJWP_fake_script() -- TP_2.LocalScript 
 	local script = Instance.new('LocalScript', TP_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1835,8 +1903,8 @@ local function ERMFK_fake_script() -- TP_2.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(ERMFK_fake_script)()
-local function IYWSNHR_fake_script() -- TP_3.LocalScript 
+coroutine.wrap(GESJWP_fake_script)()
+local function PDZTOSY_fake_script() -- TP_3.LocalScript 
 	local script = Instance.new('LocalScript', TP_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1854,8 +1922,8 @@ local function IYWSNHR_fake_script() -- TP_3.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(IYWSNHR_fake_script)()
-local function EOADEA_fake_script() -- TP_4.LocalScript 
+coroutine.wrap(PDZTOSY_fake_script)()
+local function QDULD_fake_script() -- TP_4.LocalScript 
 	local script = Instance.new('LocalScript', TP_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1873,8 +1941,8 @@ local function EOADEA_fake_script() -- TP_4.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(EOADEA_fake_script)()
-local function MGCU_fake_script() -- TP_5.LocalScript 
+coroutine.wrap(QDULD_fake_script)()
+local function GLUQVE_fake_script() -- TP_5.LocalScript 
 	local script = Instance.new('LocalScript', TP_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1892,8 +1960,8 @@ local function MGCU_fake_script() -- TP_5.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(MGCU_fake_script)()
-local function WKLBIEJ_fake_script() -- TP_6.LocalScript 
+coroutine.wrap(GLUQVE_fake_script)()
+local function BFMCM_fake_script() -- TP_6.LocalScript 
 	local script = Instance.new('LocalScript', TP_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1911,8 +1979,8 @@ local function WKLBIEJ_fake_script() -- TP_6.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(WKLBIEJ_fake_script)()
-local function TIVRYTD_fake_script() -- TP_7.LocalScript 
+coroutine.wrap(BFMCM_fake_script)()
+local function QZYAFTP_fake_script() -- TP_7.LocalScript 
 	local script = Instance.new('LocalScript', TP_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1930,8 +1998,8 @@ local function TIVRYTD_fake_script() -- TP_7.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(TIVRYTD_fake_script)()
-local function XGWARJ_fake_script() -- TP_8.LocalScript 
+coroutine.wrap(QZYAFTP_fake_script)()
+local function WHZR_fake_script() -- TP_8.LocalScript 
 	local script = Instance.new('LocalScript', TP_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1949,8 +2017,8 @@ local function XGWARJ_fake_script() -- TP_8.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(XGWARJ_fake_script)()
-local function FWYVFOV_fake_script() -- TP_9.LocalScript 
+coroutine.wrap(WHZR_fake_script)()
+local function JZIXK_fake_script() -- TP_9.LocalScript 
 	local script = Instance.new('LocalScript', TP_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1968,8 +2036,8 @@ local function FWYVFOV_fake_script() -- TP_9.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(FWYVFOV_fake_script)()
-local function AQDMV_fake_script() -- TP_10.LocalScript 
+coroutine.wrap(JZIXK_fake_script)()
+local function UINZL_fake_script() -- TP_10.LocalScript 
 	local script = Instance.new('LocalScript', TP_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1987,8 +2055,8 @@ local function AQDMV_fake_script() -- TP_10.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(AQDMV_fake_script)()
-local function MVBCHC_fake_script() -- TP_11.LocalScript 
+coroutine.wrap(UINZL_fake_script)()
+local function HXBIU_fake_script() -- TP_11.LocalScript 
 	local script = Instance.new('LocalScript', TP_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2006,8 +2074,8 @@ local function MVBCHC_fake_script() -- TP_11.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(MVBCHC_fake_script)()
-local function BQOL_fake_script() -- PopupTeleportPlace.Smooth GUI Dragging 
+coroutine.wrap(HXBIU_fake_script)()
+local function STQB_fake_script() -- PopupTeleportPlace.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', PopupTeleportPlace)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2064,8 +2132,8 @@ local function BQOL_fake_script() -- PopupTeleportPlace.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(BQOL_fake_script)()
-local function ENOHQNF_fake_script() -- Close_4.LocalScript 
+coroutine.wrap(STQB_fake_script)()
+local function YQAU_fake_script() -- Close_4.LocalScript 
 	local script = Instance.new('LocalScript', Close_4)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -2090,4 +2158,4 @@ local function ENOHQNF_fake_script() -- Close_4.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(ENOHQNF_fake_script)()
+coroutine.wrap(YQAU_fake_script)()
