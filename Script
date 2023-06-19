@@ -51,8 +51,14 @@ local ImageLabel_4 = Instance.new("ImageLabel")
 local RSpeed = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local ImageLabel_5 = Instance.new("ImageLabel")
-local Close_2 = Instance.new("TextButton")
+local SSpeed = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local ESSpeed = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local Close_2 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
 
 --Properties:
 
@@ -419,6 +425,50 @@ ImageLabel_5.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
 ImageLabel_5.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
 ImageLabel_5.Image = "rbxassetid://3128012693"
 
+SSpeed.Name = "SSpeed"
+SSpeed.Parent = Menu
+SSpeed.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+SSpeed.Position = UDim2.new(0.803607225, -401, 0.439515114, 0)
+SSpeed.Size = UDim2.new(1, 0, 0.0399999991, 0)
+SSpeed.Font = Enum.Font.SourceSansBold
+SSpeed.Text = "Slower Speed"
+SSpeed.TextColor3 = Color3.fromRGB(230, 230, 230)
+SSpeed.TextScaled = true
+SSpeed.TextSize = 14.000
+SSpeed.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = SSpeed
+
+ImageLabel_6.Parent = SSpeed
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 11.000
+ImageLabel_6.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_6.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_6.Image = "rbxassetid://3128012693"
+
+ESSpeed.Name = "ESSpeed"
+ESSpeed.Parent = Menu
+ESSpeed.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ESSpeed.Position = UDim2.new(0.803607225, -401, 0.439515114, 0)
+ESSpeed.Size = UDim2.new(1, 0, 0.0399999991, 0)
+ESSpeed.Font = Enum.Font.SourceSansBold
+ESSpeed.Text = "Even Slower Speed"
+ESSpeed.TextColor3 = Color3.fromRGB(230, 230, 230)
+ESSpeed.TextScaled = true
+ESSpeed.TextSize = 14.000
+ESSpeed.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = ESSpeed
+
+ImageLabel_7.Parent = ESSpeed
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BackgroundTransparency = 11.000
+ImageLabel_7.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_7.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_7.Image = "rbxassetid://3128012693"
+
 Close_2.Name = "Close"
 Close_2.Parent = MainDaHood
 Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -431,12 +481,12 @@ Close_2.TextScaled = true
 Close_2.TextSize = 14.000
 Close_2.TextWrapped = true
 
-UICorner_14.CornerRadius = UDim.new(0, 2)
-UICorner_14.Parent = Close_2
+UICorner_16.CornerRadius = UDim.new(0, 2)
+UICorner_16.Parent = Close_2
 
 -- Scripts:
 
-local function KPTEKH_fake_script() -- ImageLabel.Rainbow 
+local function XFJMHWL_fake_script() -- ImageLabel.Rainbow 
 	local script = Instance.new('Script', ImageLabel)
 
 	local text = script.Parent
@@ -492,8 +542,8 @@ local function KPTEKH_fake_script() -- ImageLabel.Rainbow
 	end
 	end
 end
-coroutine.wrap(KPTEKH_fake_script)()
-local function BHGR_fake_script() -- UIGradient.Script 
+coroutine.wrap(XFJMHWL_fake_script)()
+local function GEDRC_fake_script() -- UIGradient.Script 
 	local script = Instance.new('Script', UIGradient)
 
 	while task.wait() do
@@ -504,13 +554,13 @@ local function BHGR_fake_script() -- UIGradient.Script
 		end
 	end
 end
-coroutine.wrap(BHGR_fake_script)()
-local function QYCFHUY_fake_script() -- Intro.Script 
+coroutine.wrap(GEDRC_fake_script)()
+local function DQHEWGK_fake_script() -- Intro.Script 
 	local script = Instance.new('Script', Intro)
 
 	wait(3)
 	local TweenService = game:GetService("TweenService")
-	local PartTween = TweenService:Create(script.Parent.Bar.Percent, TweenInfo.new(0.4), {Size = UDim2.new({0.5, 0},{1, 0})})
+	local PartTween = TweenService:Create(script.Parent.Bar.Percent, TweenInfo.new(0.4), {Size = UDim2.new(0.5, 0,1, 0)})
 	PartTween:Play()
 	script.Parent.Progress.Text = "Setting Up UI..."
 	wait(0.4)
@@ -540,8 +590,8 @@ local function QYCFHUY_fake_script() -- Intro.Script
 		script.Parent.Parent.Key.Visible = true
 	end
 end
-coroutine.wrap(QYCFHUY_fake_script)()
-local function ONEBIZP_fake_script() -- Enter.LocalScript 
+coroutine.wrap(DQHEWGK_fake_script)()
+local function MDRWD_fake_script() -- Enter.LocalScript 
 	local script = Instance.new('LocalScript', Enter)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -557,8 +607,8 @@ local function ONEBIZP_fake_script() -- Enter.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ONEBIZP_fake_script)()
-local function TUSYB_fake_script() -- Key.Smooth GUI Dragging 
+coroutine.wrap(MDRWD_fake_script)()
+local function BZZJ_fake_script() -- Key.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', Key)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -615,8 +665,8 @@ local function TUSYB_fake_script() -- Key.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(TUSYB_fake_script)()
-local function ZGZJUP_fake_script() -- Close.LocalScript 
+coroutine.wrap(BZZJ_fake_script)()
+local function IKGJQ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -641,14 +691,22 @@ local function ZGZJUP_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(ZGZJUP_fake_script)()
-local function QFZLEP_fake_script() -- Speed.LocalScript 
+coroutine.wrap(IKGJQ_fake_script)()
+local function RJBTQP_fake_script() -- Speed.LocalScript 
 	local script = Instance.new('LocalScript', Speed)
 
 	local Speed = 0
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		Speed = Speed + 5
+	end)
+	
+	script.Parent.Parent.SSpeed.MouseButton1Click:Connect(function()
+		Speed = Speed + 2.5
+	end)
+	
+	script.Parent.Parent.ESSpeed.MouseButton1Click:Connect(function()
+		Speed = Speed + 0.9
 	end)
 	
 	script.Parent.Parent.RSpeed.MouseButton1Click:Connect(function()
@@ -664,8 +722,8 @@ local function QFZLEP_fake_script() -- Speed.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QFZLEP_fake_script)()
-local function TNWOBO_fake_script() -- Depixelize.LocalScript 
+coroutine.wrap(RJBTQP_fake_script)()
+local function AYHZXB_fake_script() -- Depixelize.LocalScript 
 	local script = Instance.new('LocalScript', Depixelize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -682,8 +740,8 @@ local function TNWOBO_fake_script() -- Depixelize.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(TNWOBO_fake_script)()
-local function DFIWD_fake_script() -- Skydive.LocalScript 
+coroutine.wrap(AYHZXB_fake_script)()
+local function HBMF_fake_script() -- Skydive.LocalScript 
 	local script = Instance.new('LocalScript', Skydive)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -700,8 +758,8 @@ local function DFIWD_fake_script() -- Skydive.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(DFIWD_fake_script)()
-local function HOWYLQM_fake_script() -- MainDaHood.Smooth GUI Dragging 
+coroutine.wrap(HBMF_fake_script)()
+local function XDWOZJ_fake_script() -- MainDaHood.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', MainDaHood)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -758,8 +816,8 @@ local function HOWYLQM_fake_script() -- MainDaHood.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(HOWYLQM_fake_script)()
-local function EYVIW_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(XDWOZJ_fake_script)()
+local function QQUCQ_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -784,4 +842,4 @@ local function EYVIW_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(EYVIW_fake_script)()
+coroutine.wrap(QQUCQ_fake_script)()
