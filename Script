@@ -128,8 +128,11 @@ local ImageLabel_18 = Instance.new("ImageLabel")
 local TP_10 = Instance.new("TextButton")
 local UICorner_35 = Instance.new("UICorner")
 local ImageLabel_19 = Instance.new("ImageLabel")
-local Close_4 = Instance.new("TextButton")
+local TP_11 = Instance.new("TextButton")
 local UICorner_36 = Instance.new("UICorner")
+local ImageLabel_20 = Instance.new("ImageLabel")
+local Close_4 = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
 
 --Properties:
 
@@ -1088,6 +1091,28 @@ ImageLabel_19.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
 ImageLabel_19.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
 ImageLabel_19.Image = "rbxassetid://3128012693"
 
+TP_11.Name = "TP"
+TP_11.Parent = Menu_3
+TP_11.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+TP_11.Position = UDim2.new(0.803607225, -401, 0.439515114, 0)
+TP_11.Size = UDim2.new(1, 0, 0.0399999991, 0)
+TP_11.Font = Enum.Font.SourceSansBold
+TP_11.Text = "Admin Base"
+TP_11.TextColor3 = Color3.fromRGB(230, 230, 230)
+TP_11.TextScaled = true
+TP_11.TextSize = 14.000
+TP_11.TextWrapped = true
+
+UICorner_36.CornerRadius = UDim.new(0, 3)
+UICorner_36.Parent = TP_11
+
+ImageLabel_20.Parent = TP_11
+ImageLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_20.BackgroundTransparency = 11.000
+ImageLabel_20.Position = UDim2.new(-0.0340679511, 0, -1.08884883, 0)
+ImageLabel_20.Size = UDim2.new(0.107124083, 0, 2.35017657, 0)
+ImageLabel_20.Image = "rbxassetid://3128012693"
+
 Close_4.Name = "Close"
 Close_4.Parent = PopupTeleportPlace
 Close_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1100,12 +1125,12 @@ Close_4.TextScaled = true
 Close_4.TextSize = 14.000
 Close_4.TextWrapped = true
 
-UICorner_36.CornerRadius = UDim.new(0, 2)
-UICorner_36.Parent = Close_4
+UICorner_37.CornerRadius = UDim.new(0, 2)
+UICorner_37.Parent = Close_4
 
 -- Scripts:
 
-local function JNYURA_fake_script() -- ImageLabel.Rainbow 
+local function SQNMXC_fake_script() -- ImageLabel.Rainbow 
 	local script = Instance.new('Script', ImageLabel)
 
 	local text = script.Parent
@@ -1161,8 +1186,8 @@ local function JNYURA_fake_script() -- ImageLabel.Rainbow
 	end
 	end
 end
-coroutine.wrap(JNYURA_fake_script)()
-local function UZFUY_fake_script() -- UIGradient.Script 
+coroutine.wrap(SQNMXC_fake_script)()
+local function RADZPA_fake_script() -- UIGradient.Script 
 	local script = Instance.new('Script', UIGradient)
 
 	while task.wait() do
@@ -1173,8 +1198,8 @@ local function UZFUY_fake_script() -- UIGradient.Script
 		end
 	end
 end
-coroutine.wrap(UZFUY_fake_script)()
-local function HXOOMNK_fake_script() -- Intro.Script 
+coroutine.wrap(RADZPA_fake_script)()
+local function BLHWKF_fake_script() -- Intro.Script 
 	local script = Instance.new('Script', Intro)
 
 	wait(0.1)
@@ -1212,8 +1237,8 @@ local function HXOOMNK_fake_script() -- Intro.Script
 		script.Parent.Parent.Key.Visible = true
 	end
 end
-coroutine.wrap(HXOOMNK_fake_script)()
-local function LQIM_fake_script() -- Enter.LocalScript 
+coroutine.wrap(BLHWKF_fake_script)()
+local function RHYPKXD_fake_script() -- Enter.LocalScript 
 	local script = Instance.new('LocalScript', Enter)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1229,8 +1254,8 @@ local function LQIM_fake_script() -- Enter.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LQIM_fake_script)()
-local function LBMLIJU_fake_script() -- Key.Smooth GUI Dragging 
+coroutine.wrap(RHYPKXD_fake_script)()
+local function QUBFI_fake_script() -- Key.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', Key)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1287,8 +1312,8 @@ local function LBMLIJU_fake_script() -- Key.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(LBMLIJU_fake_script)()
-local function TKXQWE_fake_script() -- Close.LocalScript 
+coroutine.wrap(QUBFI_fake_script)()
+local function PUFVNA_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1313,8 +1338,8 @@ local function TKXQWE_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(TKXQWE_fake_script)()
-local function XKPRZ_fake_script() -- Speed.LocalScript 
+coroutine.wrap(PUFVNA_fake_script)()
+local function SDITRGU_fake_script() -- Speed.LocalScript 
 	local script = Instance.new('LocalScript', Speed)
 
 	local Speed = 0
@@ -1344,8 +1369,8 @@ local function XKPRZ_fake_script() -- Speed.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XKPRZ_fake_script)()
-local function KNVSQK_fake_script() -- Depixelize.LocalScript 
+coroutine.wrap(SDITRGU_fake_script)()
+local function HUMAR_fake_script() -- Depixelize.LocalScript 
 	local script = Instance.new('LocalScript', Depixelize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1362,8 +1387,8 @@ local function KNVSQK_fake_script() -- Depixelize.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(KNVSQK_fake_script)()
-local function TZXGPZ_fake_script() -- Skydive.LocalScript 
+coroutine.wrap(HUMAR_fake_script)()
+local function UBNWT_fake_script() -- Skydive.LocalScript 
 	local script = Instance.new('LocalScript', Skydive)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1380,24 +1405,24 @@ local function TZXGPZ_fake_script() -- Skydive.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(TZXGPZ_fake_script)()
-local function KJAGDC_fake_script() -- TPToPlayer.LocalScript 
+coroutine.wrap(UBNWT_fake_script)()
+local function ZNLBQDJ_fake_script() -- TPToPlayer.LocalScript 
 	local script = Instance.new('LocalScript', TPToPlayer)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.PopupTeleport.Visible = true
 	end)
 end
-coroutine.wrap(KJAGDC_fake_script)()
-local function KSEYI_fake_script() -- TPToPlace.LocalScript 
+coroutine.wrap(ZNLBQDJ_fake_script)()
+local function CCXJUV_fake_script() -- TPToPlace.LocalScript 
 	local script = Instance.new('LocalScript', TPToPlace)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.PopupTeleportPlace.Visible = true
 	end)
 end
-coroutine.wrap(KSEYI_fake_script)()
-local function JQEM_fake_script() -- Warn.Script 
+coroutine.wrap(CCXJUV_fake_script)()
+local function QXLG_fake_script() -- Warn.Script 
 	local script = Instance.new('Script', Warn)
 
 	while task.wait() do
@@ -1409,8 +1434,8 @@ local function JQEM_fake_script() -- Warn.Script
 		PartTween:Play()
 		end
 end
-coroutine.wrap(JQEM_fake_script)()
-local function HVKIGR_fake_script() -- AnticheatRemoval.LocalScript 
+coroutine.wrap(QXLG_fake_script)()
+local function KHSVY_fake_script() -- AnticheatRemoval.LocalScript 
 	local script = Instance.new('LocalScript', AnticheatRemoval)
 
 	local On = true
@@ -1452,8 +1477,8 @@ local function HVKIGR_fake_script() -- AnticheatRemoval.LocalScript
 		end
 		end)
 end
-coroutine.wrap(HVKIGR_fake_script)()
-local function NTLOE_fake_script() -- AntiStomp.LocalScript 
+coroutine.wrap(KHSVY_fake_script)()
+local function LEVPF_fake_script() -- AntiStomp.LocalScript 
 	local script = Instance.new('LocalScript', AntiStomp)
 
 	local On = false
@@ -1499,8 +1524,8 @@ local function NTLOE_fake_script() -- AntiStomp.LocalScript
 		end
 		end)
 end
-coroutine.wrap(NTLOE_fake_script)()
-local function NKWH_fake_script() -- Aimbot.LocalScript 
+coroutine.wrap(LEVPF_fake_script)()
+local function OHVCOZW_fake_script() -- Aimbot.LocalScript 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	local On = false
@@ -1580,8 +1605,8 @@ local function NKWH_fake_script() -- Aimbot.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NKWH_fake_script)()
-local function RGZL_fake_script() -- MainDaHood.Smooth GUI Dragging 
+coroutine.wrap(OHVCOZW_fake_script)()
+local function BNAR_fake_script() -- MainDaHood.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', MainDaHood)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1638,8 +1663,8 @@ local function RGZL_fake_script() -- MainDaHood.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(RGZL_fake_script)()
-local function GVHJLIH_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(BNAR_fake_script)()
+local function RGKDC_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1664,8 +1689,8 @@ local function GVHJLIH_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(GVHJLIH_fake_script)()
-local function WPZGO_fake_script() -- TP.LocalScript 
+coroutine.wrap(RGKDC_fake_script)()
+local function GWBAX_fake_script() -- TP.LocalScript 
 	local script = Instance.new('LocalScript', TP)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1683,8 +1708,8 @@ local function WPZGO_fake_script() -- TP.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(WPZGO_fake_script)()
-local function RXLY_fake_script() -- PopupTeleport.Smooth GUI Dragging 
+coroutine.wrap(GWBAX_fake_script)()
+local function UOVVBLX_fake_script() -- PopupTeleport.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', PopupTeleport)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1741,8 +1766,8 @@ local function RXLY_fake_script() -- PopupTeleport.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(RXLY_fake_script)()
-local function UBVDAN_fake_script() -- Close_3.LocalScript 
+coroutine.wrap(UOVVBLX_fake_script)()
+local function ULEL_fake_script() -- Close_3.LocalScript 
 	local script = Instance.new('LocalScript', Close_3)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1767,8 +1792,8 @@ local function UBVDAN_fake_script() -- Close_3.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(UBVDAN_fake_script)()
-local function IHRGQID_fake_script() -- TP_2.LocalScript 
+coroutine.wrap(ULEL_fake_script)()
+local function TXSJIAC_fake_script() -- TP_2.LocalScript 
 	local script = Instance.new('LocalScript', TP_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1786,8 +1811,8 @@ local function IHRGQID_fake_script() -- TP_2.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(IHRGQID_fake_script)()
-local function GQUU_fake_script() -- TP_3.LocalScript 
+coroutine.wrap(TXSJIAC_fake_script)()
+local function DSRHHN_fake_script() -- TP_3.LocalScript 
 	local script = Instance.new('LocalScript', TP_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1805,8 +1830,8 @@ local function GQUU_fake_script() -- TP_3.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(GQUU_fake_script)()
-local function FDVJV_fake_script() -- TP_4.LocalScript 
+coroutine.wrap(DSRHHN_fake_script)()
+local function FUODK_fake_script() -- TP_4.LocalScript 
 	local script = Instance.new('LocalScript', TP_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1824,8 +1849,8 @@ local function FDVJV_fake_script() -- TP_4.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(FDVJV_fake_script)()
-local function LFHAU_fake_script() -- TP_5.LocalScript 
+coroutine.wrap(FUODK_fake_script)()
+local function PXGAJ_fake_script() -- TP_5.LocalScript 
 	local script = Instance.new('LocalScript', TP_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1843,8 +1868,8 @@ local function LFHAU_fake_script() -- TP_5.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(LFHAU_fake_script)()
-local function NSQPOYQ_fake_script() -- TP_6.LocalScript 
+coroutine.wrap(PXGAJ_fake_script)()
+local function HGDQAP_fake_script() -- TP_6.LocalScript 
 	local script = Instance.new('LocalScript', TP_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1862,8 +1887,8 @@ local function NSQPOYQ_fake_script() -- TP_6.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(NSQPOYQ_fake_script)()
-local function DKTYBV_fake_script() -- TP_7.LocalScript 
+coroutine.wrap(HGDQAP_fake_script)()
+local function DMNTMF_fake_script() -- TP_7.LocalScript 
 	local script = Instance.new('LocalScript', TP_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1881,8 +1906,8 @@ local function DKTYBV_fake_script() -- TP_7.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(DKTYBV_fake_script)()
-local function JTOP_fake_script() -- TP_8.LocalScript 
+coroutine.wrap(DMNTMF_fake_script)()
+local function UBXOM_fake_script() -- TP_8.LocalScript 
 	local script = Instance.new('LocalScript', TP_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1900,8 +1925,8 @@ local function JTOP_fake_script() -- TP_8.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(JTOP_fake_script)()
-local function TZACKM_fake_script() -- TP_9.LocalScript 
+coroutine.wrap(UBXOM_fake_script)()
+local function EYYIZX_fake_script() -- TP_9.LocalScript 
 	local script = Instance.new('LocalScript', TP_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1919,8 +1944,8 @@ local function TZACKM_fake_script() -- TP_9.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(TZACKM_fake_script)()
-local function GFCTUBE_fake_script() -- TP_10.LocalScript 
+coroutine.wrap(EYYIZX_fake_script)()
+local function LQTERTU_fake_script() -- TP_10.LocalScript 
 	local script = Instance.new('LocalScript', TP_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1938,8 +1963,27 @@ local function GFCTUBE_fake_script() -- TP_10.LocalScript
 	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
 	end)
 end
-coroutine.wrap(GFCTUBE_fake_script)()
-local function FJBDQ_fake_script() -- PopupTeleportPlace.Smooth GUI Dragging 
+coroutine.wrap(LQTERTU_fake_script)()
+local function KHXB_fake_script() -- TP_11.LocalScript 
+	local script = Instance.new('LocalScript', TP_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Visible = false
+	local Saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	local vim = game:GetService("VirtualInputManager")
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-625, -40, -886)
+	--game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,39000,0)
+	wait(0.1)
+	vim:SendKeyEvent(true, Enum.KeyCode.G, false, game)
+	wait(0.05)
+	vim:SendKeyEvent(false, Enum.KeyCode.G, false, game)
+	wait(0.01)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Saved
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
+	end)
+end
+coroutine.wrap(KHXB_fake_script)()
+local function MBKZGUH_fake_script() -- PopupTeleportPlace.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', PopupTeleportPlace)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1996,8 +2040,8 @@ local function FJBDQ_fake_script() -- PopupTeleportPlace.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(FJBDQ_fake_script)()
-local function OQWR_fake_script() -- Close_4.LocalScript 
+coroutine.wrap(MBKZGUH_fake_script)()
+local function NMDP_fake_script() -- Close_4.LocalScript 
 	local script = Instance.new('LocalScript', Close_4)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -2022,4 +2066,4 @@ local function OQWR_fake_script() -- Close_4.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(OQWR_fake_script)()
+coroutine.wrap(NMDP_fake_script)()
